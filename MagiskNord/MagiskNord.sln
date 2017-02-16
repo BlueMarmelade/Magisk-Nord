@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EB46C4FB-AF01-4AB9-89CA-A45AA4FDEB81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{223AE905-4CD0-4208-9826-E694D5E8EFF8}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MagiskNord", "src\MagiskNord\MagiskNord.xproj", "{88E820EE-7204-40FF-8EC3-291E1B26E362}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88E820EE-7204-40FF-8EC3-291E1B26E362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E820EE-7204-40FF-8EC3-291E1B26E362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E820EE-7204-40FF-8EC3-291E1B26E362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E820EE-7204-40FF-8EC3-291E1B26E362}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88E820EE-7204-40FF-8EC3-291E1B26E362} = {EB46C4FB-AF01-4AB9-89CA-A45AA4FDEB81}
+	EndGlobalSection
+EndGlobal
